@@ -1,0 +1,19 @@
+﻿<Window x:Class="MWCTools.LicenseInstall"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MWCTools"
+        mc:Ignorable="d"
+        Title="LicenseInstall" Height="450" Width="800">
+    <Grid Margin="0,0,0,45.667">
+        <TextBox HorizontalAlignment="Left" Height="43" Margin="30,10,0,0" TextWrapping="Wrap"   
+                 Text="" VerticalAlignment="Top" Width="436" Name="FileNameTextBox"/>
+        <Button x:Name="BrowseButton" Content="Browse a file" HorizontalAlignment="Left"   
+                Margin="485,13,0,0" VerticalAlignment="Top" Width="101" Click="BrowseButton_Click"   
+                RenderTransformOrigin="1.047,0.821" Height="30" Background="DarkCyan" Foreground="White"/>
+        <Button x:Name="install" Content="Install" HorizontalAlignment="Left" Margin="634,13,0,0" VerticalAlignment="Top" Width="102" Height="30" Click="install_Click" Background="DarkCyan" Foreground="white"/>
+        <Button x:Name="backButton" Content="Back" Background="DarkCyan" Foreground = "White" Margin="634,288,56,10.333" RenderTransformOrigin="0.597,0.127" Height="30" Click="backButton_Click"/>
+
+    </Grid>
+</Window>

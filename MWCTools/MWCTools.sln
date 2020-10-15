@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWCTools", "MWCTools.csproj", "{C38B326D-988A-44D4-9294-AF6C097C6C18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C38B326D-988A-44D4-9294-AF6C097C6C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38B326D-988A-44D4-9294-AF6C097C6C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38B326D-988A-44D4-9294-AF6C097C6C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38B326D-988A-44D4-9294-AF6C097C6C18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4511626F-1508-4B5C-A374-0E7D9C3C92C2}
+	EndGlobalSection
+EndGlobal
